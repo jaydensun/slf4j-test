@@ -1,0 +1,23 @@
+rootProject.name = 'slf4j-log'
+
+include 'slf4j-default'
+
+include 'slf4j-nop'
+
+include 'slf4j-simple'
+
+include 'slf4j-jul'
+
+include 'slf4j-jcl'
+
+include 'slf4j-log4j'
+
+include 'slf4j-jcl-log4j'
+
+include 'slf4j-logback'
+
+include 'slf4j-common'
+
+include 'all-slf4j'
+
+include 'all-logback'

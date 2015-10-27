@@ -1,0 +1,15 @@
+subprojects {
+    apply plugin: 'java'
+
+    version = '1.0'
+
+    repositories {
+        maven { url property('mavenUrl') }
+    }
+
+
+    task "create-dirs" << {
+        sourceSets*.java.srcDirs*.each { it.mkdirs() }
+        sourceSets*.resources.srcDirs*.each { it.mkdirs() }
+    }
+}
