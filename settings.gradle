@@ -21,3 +21,5 @@ include 'slf4j-common'
 include 'all-slf4j'
 
 include 'all-logback'
+include 'logback-test'
+
