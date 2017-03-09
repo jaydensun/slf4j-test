@@ -1,4 +1,4 @@
-include 'slf4j-default'
+include 'slf4j-default-nop'
 
 include 'slf4j-nop'
 
