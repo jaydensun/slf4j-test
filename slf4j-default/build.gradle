@@ -1,0 +1,3 @@
+dependencies {
+    compile project(':slf4j-common')
+}

@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * ÃèÊö£º
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * <pre>
  * HISTORY
  * ****************************************************************************
@@ -26,7 +26,9 @@ import java.util.List;
  */
 public class Test {
     public static void main(String[] args) {
+        SLF4JBridgeHandler.removeHandlersForRootLogger();
         SLF4JBridgeHandler.install();
+
         SysOutOverSLF4J.sendSystemOutAndErrToSLF4J();
 
         List<ILogger> loggers = new ArrayList<>();
