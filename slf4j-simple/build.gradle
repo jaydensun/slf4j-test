@@ -1,4 +1,4 @@
 dependencies {
     compile project(':slf4j-common')
-    compile 'org.slf4j:slf4j-simple:1.7.12'
+    compile "org.slf4j:slf4j-simple:${slf4jVersion}"
 }
