@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
  * @since 1.0
  */
 public class TestA {
-    static Logger logger = LoggerFactory.getLogger(TestA.class.getName());
+    private static Logger logger = LoggerFactory.getLogger(TestA.class.getName());
     public static void main(String[] args) {
         logger.info("info ...");
         logger.warn("warn ...");

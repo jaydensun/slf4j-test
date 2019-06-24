@@ -1,3 +1,4 @@
 dependencies {
     compile "ch.qos.logback:logback-classic:${logbackVersion}"
+    compile "org.slf4j:slf4j-api:${slf4jVersion}"
 }
