@@ -17,7 +17,7 @@ import test.base.BaseLogger;
  * @since 1.0
  */
 public class Log4jLogger extends BaseLogger {
-    Logger logger = Logger.getLogger(Log4jLogger.class.getName());
+    private Logger logger = Logger.getLogger(Log4jLogger.class.getName());
 
 
     @Override

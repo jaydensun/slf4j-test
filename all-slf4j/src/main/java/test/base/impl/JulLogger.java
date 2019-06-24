@@ -18,7 +18,7 @@ import java.util.logging.Logger;
  * @since 1.0
  */
 public class JulLogger extends BaseLogger {
-    Logger logger = Logger.getLogger(JulLogger.class.getName());
+    private Logger logger = Logger.getLogger(JulLogger.class.getName());
 
 
     @Override
