@@ -18,7 +18,7 @@ import test.base.BaseLogger;
  * @since 1.0
  */
 public class Slf4jLogger extends BaseLogger {
-    Logger logger = LoggerFactory.getLogger(Slf4jLogger.class);
+    private Logger logger = LoggerFactory.getLogger(Slf4jLogger.class);
 
 
     @Override

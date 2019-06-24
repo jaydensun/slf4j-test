@@ -18,7 +18,7 @@ import test.base.BaseLogger;
  * @since 1.0
  */
 public class JclLogger extends BaseLogger {
-    Log log = LogFactory.getLog(JclLogger.class);
+    private Log log = LogFactory.getLog(JclLogger.class);
 
     @Override
     public void log() {
