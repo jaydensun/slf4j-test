@@ -2,10 +2,7 @@ package test;
 
 import org.slf4j.bridge.SLF4JBridgeHandler;
 import test.base.ILogger;
-import test.base.impl.JclLogger;
-import test.base.impl.JulLogger;
-import test.base.impl.Log4jLogger;
-import test.base.impl.Slf4jLogger;
+import test.base.impl.*;
 import uk.org.lidalia.sysoutslf4j.context.SysOutOverSLF4J;
 
 import java.util.ArrayList;
@@ -36,6 +33,7 @@ public class Test {
         loggers.add(new JclLogger());
         loggers.add(new Log4jLogger());
         loggers.add(new Slf4jLogger());
+        loggers.add(new Log4j2Logger());
 
         loggers.forEach(ILogger::log);
 

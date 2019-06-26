@@ -15,8 +15,9 @@ include 'slf4j-jcl-log4j'
 include 'slf4j-logback'
 
 include 'slf4j-common'
+include 'slf4j-log4j2'
 
-include 'all-slf4j'
+include 'all-slf4j-log4j'
 
 include 'all-logback'
 

@@ -1,11 +1,4 @@
-package test.impl;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import test.BaseLog;
-
 /**
- *
  * <pre>
  * HISTORY
  * ****************************************************************************
@@ -17,12 +10,9 @@ import test.BaseLog;
  * @author 089245
  * @since 1.0
  */
-public class Slf4jLog extends BaseLog {
-    Logger logger = LoggerFactory.getLogger(Slf4jLog.class);
+public class Test {
 
-    @Override
-    public void log() {
-        logger.info(getLogContent());
-        logger.error(getLogContent() + " error");
+    public static void main(String[] args) {
+        LogTest.test();
     }
 }
